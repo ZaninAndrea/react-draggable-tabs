@@ -1,6 +1,6 @@
 # React draggable tabs
 The plugin is inspired by [Atom](https://atom.io/) and allows you to use these beautiful tabs in your React App
-![./screenshot.png](screenshot of the tabs)
+![screenshot of the tabs](./screenshot.png)
 
 # Usage
 You can import the Tabs component
