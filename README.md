@@ -19,4 +19,4 @@ The Tabs component requires 4 props:
 - `closeTab(selectedIndex)`: handles the remove event, it receives the index of the closed tab
 
 # Example
-Checkout the live example [here](zaninandrea.github.io/react-draggable-tabs) or the code [here](https://github.com/ZaninAndrea/react-draggable-tabs/tree/master/example)
+Checkout the live example [here](https://zaninandrea.github.io/react-draggable-tabs) or the code [here](https://github.com/ZaninAndrea/react-draggable-tabs/tree/master/example)
