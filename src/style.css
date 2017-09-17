@@ -1,0 +1,62 @@
+.react-tabs-container{
+    margin: 0;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row nowrap;
+    justify-content: flex-start;
+    border-bottom: 2px solid red;
+    height:37px;
+    overflow: hidden;
+}
+
+.react-tabs-tab{
+    padding: 7px;
+    opacity: 1;
+    font-size: 12px;
+    flex-grow: 1;
+    max-width: 200px;
+    min-width: 40px;
+    font-family: "Segoe UI",sans-serif;
+}
+
+.react-tabs-tab-content{
+    text-align: center;
+    display: inline-block;
+    width: calc(100% - 20px);
+    overflow: hidden;
+
+}
+
+.react-tabs-tab-close{
+    visibility: hidden;
+    line-height: 15px;
+    border-top: 0px;
+    border-right: 4px solid;
+    border-left: 4px solid;
+    border-bottom: 3px solid;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    width:11px;
+}
+
+.react-tabs-tab-close:hover{
+}
+
+.react-tabs-tab:hover .react-tabs-tab-close{
+    visibility: visible;
+}
+
+.react-tabs-active{
+    border-left: 4px solid orange;
+}
+
+.react-tabs-active .react-tabs-tab-close:hover{
+}

@@ -1,0 +1,35 @@
+{
+  "name": "react-draggable-tabs",
+  "version": "1.0.1",
+  "description": "Atom-like tabs for react",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dnd": "^2.5.1",
+    "react-dnd-html5-backend": "^2.5.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "andreazanin",
+    "email": "99.zanin@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.18.2"
+  }
+}

@@ -1,0 +1,34 @@
+.react-tabs-container{
+    background-color: #001f27;
+    border-color: #002b36;
+}
+
+.react-tabs-tab{
+    color: rgba(153, 178, 184, 0.6);
+}
+
+.react-tabs-tab-close{
+    border-color: #001f27;
+}
+
+.react-tabs-tab-close:hover{
+    background-color: #45c3e3;
+    color: #001f27;
+    border-color: #45c3e3;
+}
+
+.react-tabs-active{
+    color: white;
+    background-color: #002b36;
+    border-color: #45c3e3;
+}
+
+.react-tabs-active .react-tabs-tab-close{
+    border-color: #002b36;
+}
+
+.react-tabs-active .react-tabs-tab-close:hover{
+    background-color: #45c3e3;
+    color: #002b36;
+    border-color: #45c3e3;
+}
