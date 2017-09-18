@@ -1,6 +1,6 @@
 {
   "name": "react-draggable-tabs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Atom-like tabs for react",
   "main": "build/index.js",
   "peerDependencies": {

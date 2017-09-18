@@ -81,7 +81,7 @@ class Tab extends Component {
     return connectDragSource(connectDropTarget(
       <div className={this.props.active ? "react-tabs-tab react-tabs-active" : "react-tabs-tab"} onMouseUp={onClick}>
         <div className="react-tabs-tab-content" >{content}</div>
-        <div className="react-tabs-tab-close" onClick={onClose}>×</div>
+        <div className="react-tabs-tab-close" onMouseUp={onClose}>×</div>
     </div>,
     ));
   }

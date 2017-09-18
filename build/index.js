@@ -13419,7 +13419,7 @@ var Tab = function (_Component) {
                 ),
                 _react2.default.createElement(
                     'div',
-                    { className: 'react-tabs-tab-close', onClick: onClose },
+                    { className: 'react-tabs-tab-close', onMouseUp: onClose },
                     '\xD7'
                 )
             )));
