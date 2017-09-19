@@ -1,8 +1,9 @@
 {
   "name": "react-draggable-tabs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Atom-like tabs for react",
   "main": "build/index.js",
+  "repository":"https://github.com/ZaninAndrea/react-draggable-tabs",
   "peerDependencies": {
     "react": "^15.5.4"
   },
