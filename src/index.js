@@ -22,11 +22,9 @@ class Tabs extends Component {
             active={tab.active}
           />
         ))}
-        {React.Children.map(this.props.children, child =>
-            <div className="react-tabs-child">
-              {child}
-          </div>)}
-
+        <div className="react-tabs-child">
+            {React.Children.toArray(this.props.children)}
+        </div>
       </div>
     );
   }

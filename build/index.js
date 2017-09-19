@@ -13925,13 +13925,11 @@ var Tabs = function (_Component) {
             active: tab.active
           });
         }),
-        _react2.default.Children.map(this.props.children, function (child) {
-          return _react2.default.createElement(
-            'div',
-            { className: 'react-tabs-child' },
-            child
-          );
-        })
+        _react2.default.createElement(
+          'div',
+          { className: 'react-tabs-child' },
+          _react2.default.Children.toArray(this.props.children)
+        )
       );
     }
   }]);
