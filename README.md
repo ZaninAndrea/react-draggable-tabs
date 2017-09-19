@@ -1,10 +1,16 @@
-# React draggable tabs
+# [React draggable tabs](https://www.npmjs.com/package/react-draggable-tabs)
 The plugin is inspired by [Atom](https://atom.io/) and allows you to use these beautiful tabs in your React App
 ![screenshot of the tabs](./screenshot.png)
 
+# Install
+just download the repo from [npm](https://www.npmjs.com/package/react-draggable-tabs)
+```bash
+npm install react-draggable-tabs --save
+```
+
 # Usage
 You can import the Tabs component
-```js
+```jsx
 import Tabs from "react-draggable-tabs"
 
 ...
@@ -18,5 +24,12 @@ The Tabs component requires 4 props:
 - `selectTab(selectedIndex)`: handles the click event, it receives the index of the clicked tab
 - `closeTab(selectedIndex)`: handles the remove event, it receives the index of the closed tab
 
+You can also add children to the Tabs and they will be placed in the right-most position, it's useful if you want to add control buttons, for example to open a new tab.
+
+```jsx
+<Tabs {/* ...*/}>
+<button>+</button>
+</Tabs>
+```
 # Example
 Checkout the live example [here](https://zaninandrea.github.io/react-draggable-tabs) or the code [here](https://github.com/ZaninAndrea/react-draggable-tabs/tree/master/example)

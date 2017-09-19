@@ -8,7 +8,6 @@ import './palette.css'
 class Tabs extends Component {
   render() {
     const { tabs } = this.props;
-
     return (
       <div className="react-tabs-container">
         {tabs.map((tab, i) => (
@@ -23,6 +22,11 @@ class Tabs extends Component {
             active={tab.active}
           />
         ))}
+        {React.Children.map(this.props.children, child =>
+            <div className="react-tabs-child">
+              {child}
+          </div>)}
+
       </div>
     );
   }

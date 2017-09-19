@@ -13910,7 +13910,6 @@ var Tabs = function (_Component) {
 
       var tabs = this.props.tabs;
 
-
       return _react2.default.createElement(
         'div',
         { className: 'react-tabs-container' },
@@ -13925,6 +13924,13 @@ var Tabs = function (_Component) {
             closeTab: _this2.props.closeTab,
             active: tab.active
           });
+        }),
+        _react2.default.Children.map(this.props.children, function (child) {
+          return _react2.default.createElement(
+            'div',
+            { className: 'react-tabs-child' },
+            child
+          );
         })
       );
     }
@@ -14838,7 +14844,7 @@ exports = module.exports = __webpack_require__(84)(undefined);
 
 
 // module
-exports.push([module.i, ".react-tabs-container{\r\n    margin: 0;\r\n\r\n    display: -webkit-box;\r\n    display: -moz-box;\r\n    display: -ms-flexbox;\r\n    display: -webkit-flex;\r\n    display: flex;\r\n\r\n    -webkit-flex-flow: row nowrap;\r\n    justify-content: flex-start;\r\n    border-bottom: 2px solid red;\r\n    height:37px;\r\n    overflow: hidden;\r\n}\r\n\r\n.react-tabs-tab{\r\n    padding: 7px;\r\n    opacity: 1;\r\n    font-size: 12px;\r\n    flex-grow: 1;\r\n    max-width: 200px;\r\n    min-width: 40px;\r\n    font-family: \"Segoe UI\",sans-serif;\r\n}\r\n\r\n.react-tabs-tab-content{\r\n    text-align: center;\r\n    display: inline-block;\r\n    width: calc(100% - 20px);\r\n    overflow: hidden;\r\n\r\n}\r\n\r\n.react-tabs-tab-close{\r\n    visibility: hidden;\r\n    line-height: 15px;\r\n    border-top: 0px;\r\n    border-right: 4px solid;\r\n    border-left: 4px solid;\r\n    border-bottom: 3px solid;\r\n    display: inline-block;\r\n    text-align: center;\r\n    border-radius: 3px;\r\n    font-size: 16px;\r\n    font-weight: bold;\r\n    width:11px;\r\n}\r\n\r\n.react-tabs-tab-close:hover{\r\n}\r\n\r\n.react-tabs-tab:hover .react-tabs-tab-close{\r\n    visibility: visible;\r\n}\r\n\r\n.react-tabs-active{\r\n    border-left: 4px solid orange;\r\n}\r\n\r\n.react-tabs-active .react-tabs-tab-close:hover{\r\n}\r\n", ""]);
+exports.push([module.i, ".react-tabs-container{\r\n    margin: 0;\r\n\r\n    display: -webkit-box;\r\n    display: -moz-box;\r\n    display: -ms-flexbox;\r\n    display: -webkit-flex;\r\n    display: flex;\r\n\r\n    -webkit-flex-flow: row nowrap;\r\n    justify-content: flex-start;\r\n    border-bottom: 2px solid red;\r\n    height:37px;\r\n    overflow: hidden;\r\n}\r\n\r\n.react-tabs-tab{\r\n    padding: 7px;\r\n    opacity: 1;\r\n    font-size: 12px;\r\n    flex-grow: 1;\r\n    max-width: 200px;\r\n    min-width: 40px;\r\n    font-family: \"Segoe UI\",sans-serif;\r\n}\r\n\r\n.react-tabs-child{\r\n    padding: 7px;\r\n    opacity: 1;\r\n    font-size: 12px;\r\n    flex-grow: 0;\r\n    margin-left: auto;\r\n    font-family: \"Segoe UI\",sans-serif;\r\n}\r\n\r\n.react-tabs-tab-content{\r\n    text-align: center;\r\n    display: inline-block;\r\n    width: calc(100% - 20px);\r\n    overflow: hidden;\r\n\r\n}\r\n\r\n.react-tabs-tab-close{\r\n    visibility: hidden;\r\n    line-height: 15px;\r\n    border-top: 0px;\r\n    border-right: 4px solid;\r\n    border-left: 4px solid;\r\n    border-bottom: 3px solid;\r\n    display: inline-block;\r\n    text-align: center;\r\n    border-radius: 3px;\r\n    font-size: 16px;\r\n    font-weight: bold;\r\n    width:11px;\r\n}\r\n\r\n.react-tabs-tab-close:hover{\r\n}\r\n\r\n.react-tabs-tab:hover .react-tabs-tab-close{\r\n    visibility: visible;\r\n}\r\n\r\n.react-tabs-active{\r\n    border-left: 4px solid orange;\r\n}\r\n\r\n.react-tabs-active .react-tabs-tab-close:hover{\r\n}\r\n", ""]);
 
 // exports
 

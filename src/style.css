@@ -24,6 +24,15 @@
     font-family: "Segoe UI",sans-serif;
 }
 
+.react-tabs-child{
+    padding: 7px;
+    opacity: 1;
+    font-size: 12px;
+    flex-grow: 0;
+    margin-left: auto;
+    font-family: "Segoe UI",sans-serif;
+}
+
 .react-tabs-tab-content{
     text-align: center;
     display: inline-block;

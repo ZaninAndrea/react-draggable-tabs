@@ -8,6 +8,7 @@ class App extends Component {
         this.moveTab = this.moveTab.bind(this);
         this.selectTab = this.selectTab.bind(this);
         this.closedTab = this.closedTab.bind(this);
+        this.addTab = this.addTab.bind(this);
         this.state = {
             tabs: [
                 {
@@ -70,11 +71,25 @@ class App extends Component {
         })
     }
 
+    addTab(){
+        this.setState((state,props)=>{
+            let newTabs = [...state.tabs]
+            newTabs.push({
+                id: newTabs.length+1,
+                content: 'Cute *',
+                display: <div key={newTabs.length+1}>Cute *</div>
+            })
+
+            return {tabs: newTabs}
+        })
+    }
     render() {
         const activeTab = this.state.tabs.filter(tab => tab.active === true)
         return (
             <div>
-                <Tabs moveTab={this.moveTab} selectTab={this.selectTab} closeTab={this.closedTab} tabs={this.state.tabs}/>
+                <Tabs moveTab={this.moveTab} selectTab={this.selectTab} closeTab={this.closedTab} tabs={this.state.tabs}>
+                    <button onClick={this.addTab}>+</button>
+                </Tabs>
                 {activeTab.length !== 0
                     ? activeTab[0].display
                     : ""}
