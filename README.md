@@ -1,4 +1,4 @@
-# [React draggable tabs](https://www.npmjs.com/package/react-draggable-tabs)
+# React draggable tabs [![npm version](https://badge.fury.io/js/react-draggable-tabs.svg)](https://www.npmjs.com/package/react-draggable-tabs)
 The plugin is inspired by [Atom](https://atom.io/) and allows you to use these beautiful tabs in your React App
 ![screenshot of the tabs](./screenshot.png)
 
@@ -32,4 +32,5 @@ You can also add children to the Tabs and they will be placed in the right-most 
 </Tabs>
 ```
 # Example
-Checkout the live example [here](https://zaninandrea.github.io/react-draggable-tabs) or the code [here](https://github.com/ZaninAndrea/react-draggable-tabs/tree/master/example)
+Checkout the live example [here](https://zaninandrea.github.io/react-draggable-tabs)  
+[![Edit n0952xxo6p](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/n0952xxo6p)
