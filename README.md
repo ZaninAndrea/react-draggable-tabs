@@ -32,5 +32,5 @@ You can also add children to the Tabs and they will be placed in the right-most 
 </Tabs>
 ```
 # Example
-Checkout the live example [here](https://zaninandrea.github.io/react-draggable-tabs)  
+Checkout the live example [here](https://n0952xxo6p.codesandbox.io/)  
 [![Edit n0952xxo6p](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/n0952xxo6p)
