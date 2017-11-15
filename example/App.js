@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import update from 'react/lib/update';
-import Tabs from "react-draggable-tabs"
+import update from 'react-addons-update';
+import Tabs from "../build/index"
+// import Tabs from "react-draggable-tabs"
 
 class App extends Component {
     constructor(props) {
